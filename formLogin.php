@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'plantilles/cap.php';
 ?>
 <div class="container">
@@ -15,7 +16,7 @@ include 'plantilles/cap.php';
  	</div>   	 
 
 	<?php
-	   session_start();
+	 
 	   if(isset($_SESSION['error'])) {		  
 		  echo '<div class="form-group">';
 		  echo '<div class="alert alert-danger" role="alert">';
@@ -30,7 +31,7 @@ include 'plantilles/cap.php';
 	<button type="submit" class="btn btn-primary mb-2">Login</button>  
 	</form>
 	<div class="alert alert-dark" role="alert">
-				per entrar prova amb username: enric  password: z67yeeui
+				per entrar pots utilitzar username: enric  password: z67yeeui
 	</div>
 </div>
 

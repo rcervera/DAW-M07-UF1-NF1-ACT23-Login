@@ -1,7 +1,7 @@
 <?php 
  include_once 'seguretat.php';
-  include 'cap.php';
-  include 'menu.php';
+  include 'plantilles/cap.php';
+  include 'plantilles/menu.php';
 ?>
 
 <div class="container">	
@@ -9,5 +9,5 @@
 </div>
 
 <?php 
-   include 'peu.php' 
+   include 'plantilles/peu.php' 
 ?>
